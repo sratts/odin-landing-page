@@ -43,7 +43,6 @@ body {
     list-style: none;
 }
 
-
 .hero .media {
     display: flex;
     align-items: center;
@@ -62,10 +61,40 @@ body {
     margin-bottom: 15px;
 }
 
-.section2 {
+.info {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: 1;
+    gap: 32px;
+    padding: 40px 0;
+    background-color: white;
 }
+
+.info .title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info .boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.info .box {
+    width: 200px;
+    text-align: center;
+}
+
+.box img {
+    border-radius: 15px;
+    border: 2px solid blue;
+    width: 150px;
+
+}
+
 
 .section3 {
     display: flex;
