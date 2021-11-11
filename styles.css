@@ -96,10 +96,24 @@ body {
 }
 
 
-.section3 {
+.quote {
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
     flex: 1;
+    padding: 56px 30%;
+}
+
+.quote p{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+    font-style: normal;
 }
 
 button {
